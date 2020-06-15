@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="168.389" viewBox="0 0 180 168.389">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2698ff;
+      }
+
+      .cls-2 {
+        filter: url(#icon);
+      }
+    </style>
+    <filter id="icon" x="0" y="0" width="180" height="168.389" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#2698ff" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="icon-2" data-name="icon" class="cls-1" d="M184.2,134.047,128.51,97.177a5.96,5.96,0,0,0-6.683,0l-17.478,11.438V96.829a3.444,3.444,0,0,0-3.429-3.429H87.22a3.444,3.444,0,0,0-3.429,3.429v25.246L65.8,133.887A1.687,1.687,0,0,0,65.3,136.3a1.769,1.769,0,0,0,1.366.857,1.293,1.293,0,0,0,.857-.348l6-3.924v60.335a8.492,8.492,0,0,0,8.558,8.571h85.674a8.484,8.484,0,0,0,8.558-8.571V132.976l6,3.991a1.739,1.739,0,0,0,1.888-2.92Zm-37.326,27.121-15.7,16.513a8.118,8.118,0,0,1-6.121,2.652,8.958,8.958,0,0,1-6.321-2.652l-15.067-15.9A12.623,12.623,0,0,1,100.2,152.4a13.489,13.489,0,0,1,22.232-9.79,12.085,12.085,0,0,1,2.638,3.067,15.157,15.157,0,0,1,2.853-3.268,13.4,13.4,0,0,1,18.951,18.763Z" transform="translate(-35 -63.4)"/>
+  </g>
+</svg>
